@@ -1,5 +1,5 @@
 import React from 'react';
-import Sidebar from './Sidebar'; // Sidebar কম্পোনেন্ট আমদানি করুন
+import Sidebar from './Sidebar'; 
 
 const Dashboard = () => {
   return (
@@ -8,12 +8,12 @@ const Dashboard = () => {
       <Sidebar />
 
       {/* Main Content */}
-      <main className="flex-1 p-8 ml-64"> {/* ml-64 to create space for the fixed sidebar */}
+      <main className="flex-1 p-8 ml-64">
         <h1 className="text-3xl font-bold mb-6">Dashboard Overview</h1>
         <div className="grid grid-cols-3 gap-6">
           {/* Card for Bus Count */}
           <div className="bg-white rounded-lg shadow-md p-6 text-center">
-            <h2 className="text-2xl font-bold text-gray-700">Buses Added</h2>
+            <h2 className="text-2xl font-bold text-gray-700">Bus Schedule Added</h2>
             <p className="text-4xl text-blue-600 font-bold mt-4">20</p>
           </div>
 
